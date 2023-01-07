@@ -1,0 +1,41 @@
+:root{
+    font-size: 16px;
+}
+body{
+    background: #1A120B;
+}
+#head{
+    text-align: center;
+    font-size:2em;
+    background-color:#000 ;
+    color: white;
+    padding: 20px 0;
+}
+#todoinput{
+    padding: 10px 15px;
+}
+.newList{
+    list-style: none;
+    color: White;
+}
+.itemList{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 20%;
+}
+.btn-warning{
+    flex: 5%;
+    margin-right: 10px;
+}
+.btn-danger{
+    flex: 5%;
+}
+.newList{
+    flex: 80%;
+}
+li{
+    padding: 8px 10px;
+    border-radius: 10px 0 0 10px;
+}
