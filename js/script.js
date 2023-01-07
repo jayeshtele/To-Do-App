@@ -14,7 +14,7 @@ newTask.addEventListener("click", () => {
     var task = input.value;
 
     const div = document.createElement("div");
-    div.className = "itemList mt-2";
+    div.className = "itemList mt-2 col-12 col-md-10 col-xl-7";
     list.appendChild(div);
 
     const li = document.createElement("li");
