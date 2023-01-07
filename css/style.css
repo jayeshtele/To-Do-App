@@ -1,41 +1,48 @@
-:root{
+:root {
     font-size: 16px;
 }
-body{
+
+body {
     background: #1A120B;
 }
-#head{
+
+#head {
     text-align: center;
-    font-size:2em;
-    background-color:#000 ;
+    font-size: 2em;
+    background-color: #000;
     color: white;
     padding: 20px 0;
 }
-#todoinput{
+
+#todoinput {
     padding: 10px 15px;
 }
-.newList{
+
+.newList {
     list-style: none;
     color: White;
 }
-.itemList{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 20%;
-}
-.btn-warning{
+
+.btn-warning {
     flex: 5%;
     margin-right: 10px;
 }
-.btn-danger{
+
+.btn-danger {
     flex: 5%;
 }
-.newList{
+
+.itemList {
+    width: 102.5%;
+    display: flex;
+    align-items: center;
+}
+
+.newList {
     flex: 80%;
 }
-li{
+
+li {
     padding: 8px 10px;
     border-radius: 10px 0 0 10px;
 }
