@@ -41,7 +41,7 @@ newTask.addEventListener("click", () => {
     edit.addEventListener("click", () => {
         if (edit.innerText.toLowerCase() == "edit") {
             li.contentEditable = true;
-            li.style.background = "#000"
+            li.style.background = "#fff"
             edit.innerText = "Save";
         } else {
             li.contentEditable = false;
