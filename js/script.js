@@ -18,7 +18,7 @@ newTask.addEventListener("click", () => {
     list.appendChild(div);
 
     const li = document.createElement("li");
-    li.className = "newList";
+    li.className = "newList text-break";
     li.innerText = task;
     div.appendChild(li);
 
