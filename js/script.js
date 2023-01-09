@@ -1,7 +1,7 @@
 const newTask = document.getElementById("addtask");
 const list = document.getElementById("list");
 const row = document.getElementsByClassName("row");
-
+const search = document.getElementById("search");
 
 newTask.addEventListener("click", () => {
 
@@ -50,6 +50,10 @@ newTask.addEventListener("click", () => {
             li.style.background = "none"
             edit.innerText = "Edit";
         }
+    })
+
+    search.addEventListener("click", ()=>{
+        if(task.toLowerCase() == )
     })
 
 })
